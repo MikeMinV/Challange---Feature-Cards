@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Kumbh+Sans:wght@600&family=Poppins:wght@200;400;600&family=Roboto&display=swap");
+body {
+  padding: 0;
+  background-color: hsl(0deg, 0%, 98%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+}
+
+p {
+  color: rgb(94, 91, 91);
+}
+
+h1,
+h2 {
+  color: rgb(63, 61, 61);
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.heading h1 {
+  width: 50%;
+  font-weight: 200;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.heading p {
+  width: 60%;
+}
+.heading span {
+  font-weight: bold;
+}
+
+.cards .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.supervisor,
+.teambuilder,
+.karma,
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 5px 5px 30px lightgray, -5px -5px 30px lightgrey;
+  margin: 40px;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+.supervisor h2,
+.supervisor p,
+.teambuilder h2,
+.teambuilder p,
+.karma h2,
+.karma p,
+.calculator h2,
+.calculator p {
+  padding: 15px;
+  margin-bottom: -20px;
+}
+.supervisor img,
+.teambuilder img,
+.karma img,
+.calculator img {
+  align-self: flex-end;
+  padding: 50px;
+}
+
+.supervisor {
+  border-top: 5px solid hsl(180deg, 62%, 55%);
+}
+
+.teambuilder {
+  border-top: 5px solid hsl(0deg, 78%, 62%);
+}
+
+.karma {
+  border-top: 5px solid hsl(34deg, 97%, 64%);
+}
+
+.calculator {
+  border-top: 5px solid hsl(212deg, 86%, 64%);
+}/*# sourceMappingURL=style.css.map */
